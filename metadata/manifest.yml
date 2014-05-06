@@ -24,4 +24,4 @@ Endpoints:
     Protocols:         [tcp]
     Options:           { "ssl_to_gear" : true} # ssl hack https://github.com/sosiouxme/diy-extra-port-cartridge/commit/198363bb6f44300bee6b6f3b98ffedecd3afba69
 
-Source-Url: ssh://github.com/kurtiss/openshift-postgres-rls-cartridge.git
+Source-Url: https://github.com/kurtiss/openshift-postgres-rls-cartridge.git
