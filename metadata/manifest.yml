@@ -5,7 +5,7 @@ Description: postgresql 9.4 devel as of 4-2102014 with RLS patch applied
 Version: "1.0"
 Website: http://www.crunchydatasolutions.com
 Cartridge-Version: 1.0.0
-Cartridge-Vendor: crunchydatasolutions
+Cartridge-Vendor: kurtiss
 Categories:
   - service
   - database
@@ -24,4 +24,4 @@ Endpoints:
     Protocols:         [tcp]
     Options:           { "ssl_to_gear" : true} # ssl hack https://github.com/sosiouxme/diy-extra-port-cartridge/commit/198363bb6f44300bee6b6f3b98ffedecd3afba69
 
-Source-Url: ssh://github.com/crunchyds/openshift-postgres-rls-cartridge.git
+Source-Url: ssh://github.com/kurtiss/openshift-postgres-rls-cartridge.git
