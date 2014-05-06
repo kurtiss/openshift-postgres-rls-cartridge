@@ -20,7 +20,8 @@ Endpoints:
   - Private-IP-Name:   HOST
     Private-Port-Name: PORT
     Private-Port:      5432
-    Public-Port-Name:  PORT
+    Public-Port-Name:  PUBLIC_PORT
+    Protocols:         [tcp]
     Options:           { "ssl_to_gear" : true} # ssl hack https://github.com/sosiouxme/diy-extra-port-cartridge/commit/198363bb6f44300bee6b6f3b98ffedecd3afba69
 
 Source-Url: ssh://github.com/crunchyds/openshift-postgres-rls-cartridge.git
